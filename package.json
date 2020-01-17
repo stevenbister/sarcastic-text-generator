@@ -11,6 +11,6 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-    "browsersync": "browser-sync start --server --files='./*.html, ./*.js'"
+    "browsersync": "browser-sync start --server --files='./*.html, ./*.css, ./*.js'"
   }
 }
