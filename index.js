@@ -17,3 +17,5 @@ const makeStringSarcastic = (str) => {
 }
 
 textarea.addEventListener('input', e => output.textContent = makeStringSarcastic(e.target.value) )
+
+// https://clipboardjs.com/ ? maybe
