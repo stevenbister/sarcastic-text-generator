@@ -1,6 +1,7 @@
 :root {
   --global-margin: 2em;
-  --yellow: #FFC145;
+  --background: #5B5F97;
+  --main: #FFC145;
   /* https://coolors.co/b8b8d1-5b5f97-ffc145-fffffb-ff6b6c */
 }
 
@@ -9,7 +10,8 @@
 }
 
 body {
-  background: #fff;
+  background: var(--background);
+  color: var(--main);
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100%;
@@ -21,9 +23,9 @@ main {
 }
 
 input[name='textarea'] {
-  background: #f2f2f2;
+  background: rgba(255,255,255,.5);
   border: 0;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px var(--main);
   font-size: 24px;
   padding: 1em;
 }
@@ -39,9 +41,9 @@ h1 {
   display: flex;
   flex-flow: column;
   height: 100vh;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 1200px;
-  padding: 2rem;
+  padding: 0 2rem;
   width: 100%;
   text-align: center;
 }
