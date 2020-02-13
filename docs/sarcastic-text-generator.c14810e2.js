@@ -4,4 +4,4 @@ var t;!function(e,n){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var t=e(require("clipboard/dist/clipboard.min"));function e(t){return t&&t.__esModule?t:{default:t}}function r(t){return u(t)||o(t)||n()}function n(){throw new TypeError("Invalid attempt to spread non-iterable instance")}function o(t){if(Symbol.iterator in Object(t)||"[object Arguments]"===Object.prototype.toString.call(t))return Array.from(t)}function u(t){if(Array.isArray(t)){for(var e=0,r=new Array(t.length);e<t.length;e++)r[e]=t[e];return r}}new t.default(".btn");var a=document.querySelector("[name=textarea]"),i=document.querySelector("#output"),c=function(t){return r(t).map(function(t,e){return e%2?t.toUpperCase():t.toLowerCase()}).join("")};a.addEventListener("input",function(t){return i.textContent=c(t.target.value)});
 },{"clipboard/dist/clipboard.min":"xJ98"}]},{},["Focm"], null)
-//# sourceMappingURL=/sarcastic-text-generator.c14810e2.js.map
+//# sourceMappingURL=sarcastic-text-generator.c14810e2.js.map
