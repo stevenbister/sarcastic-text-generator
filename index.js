@@ -1,7 +1,10 @@
-const textarea = document.querySelector('[name=textarea]');
-const output = document.querySelector('.output')
+import ClipboardJS from 'clipboard/dist/clipboard.min'
+new ClipboardJS('.btn')
 
-const makeStringSarcastic = (str) => {
+const textarea = document.querySelector('[name=textarea]');
+const output = document.querySelector('#output')
+
+const makeStringSarcastic = str => {
   // split the string into an array
   const arr = [... str];
 
@@ -18,4 +21,3 @@ const makeStringSarcastic = (str) => {
 
 textarea.addEventListener('input', e => output.textContent = makeStringSarcastic(e.target.value) )
 
-// https://clipboardjs.com/ ? maybe

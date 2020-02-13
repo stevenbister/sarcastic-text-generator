@@ -48,6 +48,9 @@ h1 {
   text-align: center;
 }
 
+.output-container {
+}
+
 #output {
   font-size: 24px;
   margin: var(--global-margin) 0;
@@ -63,3 +66,6 @@ h1 {
   font-size: 20px;
   padding: 0.5em 1em;
 }
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
