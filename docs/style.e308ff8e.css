@@ -27,7 +27,7 @@ input[name='textarea'] {
   border: 0;
   border-bottom: solid 1px var(--main);
   font-size: 24px;
-  padding: 1em;
+  padding: .5em;
 }
 
 h1 {
@@ -50,17 +50,19 @@ h1 {
 
 #output {
   font-size: 24px;
+  min-height: 24px;
   margin: var(--global-margin) 0;
   word-break: break-all;
 }
 
 .btn {
-  border: 0;
+  border: 1px solid var(--main);
+  border-radius: 3px;
   background: var(--main);
   color: #fff;
   cursor: pointer;
   font-family: 'Luckiest Guy', cursive;
-  font-size: 20px;
+  font-size: 22px;
   padding: 0.5em 1em;
 }
 
